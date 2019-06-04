@@ -63,7 +63,6 @@ class Router extends AbstractRouter
             /** 上传相关 */
             $routeCollector->addGroup('/upload', function (RouteCollector $routeCollector) {
                 $routeCollector->post('/img', '/Api/V1/Admin/Upload/img');
-                $routeCollector->post('/excel', '/Api/V1/Admin/Upload/excel');
             });
 
             /** 管理员管理 */
