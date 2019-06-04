@@ -1,0 +1,11 @@
+.idea
+/vendor
+/composer.lock
+
+/Log/
+/Temp/
+/easyswoole
+
+dev.*
+
+produce.*
